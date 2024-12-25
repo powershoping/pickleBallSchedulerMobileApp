@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "test001",
-    "slug": "snack-612c0316-44bd-468b-80cf-63fc667a4c61",
+    "slug": "pickleballscheduler",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,21 +13,30 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.powershopingapps.snack612c031644bd468b80cf63fc667a4c61"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.powershopingapps.snack612c031644bd468b80cf63fc667a4c61"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "3ce1d10a-369f-490a-80cf-8d80b5ee1b17"
+        "projectId": "c6003fa9-e881-4f8d-81ed-168af979b184"
       }
+    },
+    "owner": "powershopingapps",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/c6003fa9-e881-4f8d-81ed-168af979b184"
     }
   }
 }
